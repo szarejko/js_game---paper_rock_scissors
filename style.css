@@ -6,7 +6,10 @@
 }
 
 body {
-  background-image: url('/back2.png');
+  height: 100vh;
+  max-width: 900px;
+  margin: 0 auto;
+  background-image: url('./back1.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -22,7 +25,7 @@ h3 {
 
 h1 {
   font-size: 50px;
-  color: #262626;
+  color: #8d0606;
 }
 
 h2 {
@@ -30,8 +33,8 @@ h2 {
 }
 
 h3 {
-  color: #ffc600;
-  font-size: 20px;
+  color: #262626;
+  font-size: 30px;
 }
 
 .panel {
@@ -61,20 +64,19 @@ h3 {
   text-align: center;
   margin: 10px auto;
   max-width: 1000px;
-  transition: all 0.4s;
+  transition: all 0.2s;
 }
 
 .select img {
   width: 200px;
   margin: 20px;
   display: inline-block;
+  transition: all 0.2s;
 }
 
 img:hover {
-  border: 4px solid #ffc600;
-  border-radius: 15px;
-  box-shadow: 0 2px 0 rgba(0, 0, 0, 0.07);
-  transform: rotate(5deg);
+  transform: scale(0.8);
+  padding: 13px;
 }
 
 button {
@@ -87,8 +89,9 @@ button {
   font-weight: bold;
   color: #262626;
   margin: 20px auto;
-  transition: all 0.3s;
-  font-size: 30px;
+  transition: all 0.2s;
+  font-size: 32px;
+  font-weight: bolder;
   cursor: pointer;
 }
 
